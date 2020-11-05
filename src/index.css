@@ -11,3 +11,43 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background-color: #dee1dd;
+  color: #28363d;
+}
+
+.headerOne {
+  font-size: 4rem;
+}
+
+.photoDiv {
+  width: 85%;
+  background-color: #99aead;
+  padding-bottom: 1rem;
+}
+
+.photoDiv h2 {
+  color: white;
+  text-shadow: 1px 1px black;
+  font-size: 2rem;
+}
+.photoDiv img {
+  width: 85%;
+  height: auto;
+  padding: 1rem 0.5rem;
+}
+
+.paraDiv {
+  width: 90%;
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 1rem;
+}
